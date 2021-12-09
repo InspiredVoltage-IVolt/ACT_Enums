@@ -6,8 +6,9 @@
     <SharedGUID>fc65fcc0-f3ac-4fc7-b1bf-998d33dad8b2</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>ACT_Enums</Import_RootNamespace>
+    <Import_RootNamespace>s</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)About.cs" />
   </ItemGroup>
 </Project>
