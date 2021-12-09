@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ACT_Enums", "ACT_Enums\ACT_Enums.shproj", "{FC65FCC0-F3AC-4FC7-B1BF-998D33DAD8B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT_Enums", "ACT_Enumss\ACT_Enums.csproj", "{C9148A58-7406-4128-A16D-259CB0BB0E46}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		ACT_Enums\ACT_Enums.projitems*{fc65fcc0-f3ac-4fc7-b1bf-998d33dad8b2}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9148A58-7406-4128-A16D-259CB0BB0E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9148A58-7406-4128-A16D-259CB0BB0E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9148A58-7406-4128-A16D-259CB0BB0E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9148A58-7406-4128-A16D-259CB0BB0E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
