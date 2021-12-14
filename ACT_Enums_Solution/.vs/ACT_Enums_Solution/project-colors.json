@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc65fcc0-f3ac-4fc7-b1bf-998d33dad8b2": {
+      "ProjectGuid": "fc65fcc0-f3ac-4fc7-b1bf-998d33dad8b2",
+      "DisplayName": "ACT_Enums",
+      "ColorIndex": 0
+    },
+    "c9148a58-7406-4128-a16d-259cb0bb0e46": {
+      "ProjectGuid": "c9148a58-7406-4128-a16d-259cb0bb0e46",
+      "DisplayName": "ACT_Enums",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
