@@ -1,4 +1,4 @@
-﻿namespace ACT.Enums
+﻿namespace ACT.Core.Enums
 {
     public enum CacheMethod
     {

@@ -1,4 +1,4 @@
-﻿namespace ACT.Enums.Compression
+﻿namespace ACT.Core.Enums.Compression
 {
     public enum CompressionfFileFormats
     {

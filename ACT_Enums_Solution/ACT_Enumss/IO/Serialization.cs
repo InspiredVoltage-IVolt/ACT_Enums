@@ -1,6 +1,6 @@
-﻿namespace ACT.Enums
+﻿namespace ACT.Core.Enums.IO
 {
-    public enum SerializationType
+    public enum Serialization_Type
     {
         XML,
         JSON,

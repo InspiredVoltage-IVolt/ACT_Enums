@@ -1,22 +1,38 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <RootNamespace>ACT.Enums</RootNamespace>
+    <Nullable>disable</Nullable>
+    <RootNamespace>ACT.Core.Enums</RootNamespace>
     <Authors>IVolt LLC, Mark Alicz</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>ACT Support Enums - Used Across All ACT Projects</Description>
     <Copyright>2021 IVolt - Mark ALicz</Copyright>
-    <PackageProjectUrl>https://www.ivolt.io/Packages/ACT_Enums/</PackageProjectUrl>
+    <PackageProjectUrl>http://www.act-net.us/ACT/ACT_Enums/</PackageProjectUrl>
     <PackageIcon>ACT_Common_Icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/InspiredVoltage-IVolt/ACT_Enums</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>ACT</PackageTags>
-    <AssemblyVersion>2.0.4</AssemblyVersion>
-    <FileVersion>2.0.4</FileVersion>
+    <PackageTags>ACT; ACT ENUMS; ACT Support Assembly</PackageTags>
+    <AssemblyVersion>2.0.6</AssemblyVersion>
+    <FileVersion>2.0.6</FileVersion>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <Version>2.0.6</Version>
+    <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="M:\Shared drives\Assets\IVolt_Product_Images\ACT\ACT_Enums\ACT_Common_Icon.png">

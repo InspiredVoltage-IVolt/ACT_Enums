@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\IVolt_Development\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\ACT_Enums.csproj": {
-      "version": "1.0.0",
+      "version": "2.0.6",
       "restore": {
         "projectUniqueName": "D:\\IVolt_Development\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\ACT_Enums.csproj",
         "projectName": "ACT_Enums",
@@ -32,6 +32,7 @@
           "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.act-net.us/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

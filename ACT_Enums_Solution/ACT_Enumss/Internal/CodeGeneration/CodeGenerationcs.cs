@@ -15,20 +15,5 @@
         Interface = 8,
     }
 
-    /// <summary>
-    /// Coding Languages
-    /// </summary>
-    [Flags]
-    public enum Language
-    {
-        CSharp = 0,
-        VisualBasic = 1,
-        CPlusPlus = 2,
-        C = CPlusPlus | VisualBasic, // 0x00000003
-        Perl = 4,
-        Javascript = Perl | VisualBasic, // 0x00000005
-        Ruby = Perl | CPlusPlus, // 0x00000006
-        Python = Ruby | VisualBasic, // 0x00000007
-        Custom = 8,
-    }
+
 }
