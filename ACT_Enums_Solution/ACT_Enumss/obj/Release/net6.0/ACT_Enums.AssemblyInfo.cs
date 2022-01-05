@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("IVolt LLC, Mark Alicz")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("2021 IVolt - Mark ALicz")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("ACT Support Enums - Used Across All ACT Projects")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.7")]

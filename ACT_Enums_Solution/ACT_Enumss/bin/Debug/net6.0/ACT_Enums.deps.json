@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ACT_Enums/1.0.0": {
+      "ACT_Enums/2.0.6": {
         "runtime": {
           "ACT_Enums.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "ACT_Enums/1.0.0": {
+    "ACT_Enums/2.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -9,4 +9,12 @@
         /// <summary>Use Internal Caching</summary>
         Memory = 4,
     }
+
+    /// <summary>
+    /// Represents the State Of a CacheEngine
+    /// </summary>
+    public enum CacheEngineState
+    {
+        Live, Initializing, Rebuilding, Saving, Error
+    }
 }
