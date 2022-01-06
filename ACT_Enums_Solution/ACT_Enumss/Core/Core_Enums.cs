@@ -1,29 +1,13 @@
 ﻿namespace ACT.Core.Enums
 {
-    /// <summary>
-    /// Defines Basic Access Levels
-    /// </summary>
-    [Flags]
-    public enum AccessLevel
-    {
-        Read = 0,
-        Write = 1,
-        Modify = 2,
-        Custom = Modify | Write, // 0x00000003
-        Create = 4,
-        Delete = Create | Write, // 0x00000005
-    }
 
-    /// <summary>Defines Common Error Levels.</summary>
-    public enum ErrorLevel
+    /// <summary>
+    /// The Sections of the Settings File
+    /// </summary>
+    [Flags()]
+    public enum SystemSettingsSections
     {
-        Informational,
-        /// <summary>Warning. Log Error. Take No Additional Action</summary>
-        Warning,
-        /// <summary>Severe: Log Error, Notify Admin</summary>
-        Severe,
-        /// <summary>Critical: Log Error, Notify Admin, Throw Exception</summary>
-        Critical,
+        All, Basic, Complex, Dependancy, Interface, EncryptionKeys, InstalledApplication
     }
 
     /// <summary>
@@ -33,6 +17,8 @@
     {
         Standard,
         Crypto,
+        /// <summary>ACT Special Random Engine </summary>
+        ACTParticleRand
     }
 
 
@@ -67,19 +53,11 @@
         WithIn = 8,
     }
 
-    /// <summary>
-    /// Programming Languages
-    /// </summary>
-    public enum ProgrammingLanguages
-    {
-        CSharp,
-        JavaScript,
-    }
-
 
     /// <summary>
     /// Replacement Standards
     /// </summary>
+    [Flags()]
     public enum RepacementStandard
     {
         UPPERCASE = 1,

@@ -1,5 +1,18 @@
 ﻿namespace ACT.Core.Enums
 {
+    /// <summary>
+    /// Defines Basic Access Levels
+    /// </summary>
+    [Flags]
+    public enum AccessLevel
+    {
+        Read = 0,
+        Write = 1,
+        Modify = 2,
+        Custom = Modify | Write, // 0x00000003
+        Create = 4,
+        Delete = Create | Write, // 0x00000005
+    }
     public enum HashType
     {
         SHA512,
