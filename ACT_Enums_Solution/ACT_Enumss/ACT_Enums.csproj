@@ -14,10 +14,10 @@
     <RepositoryUrl>https://github.com/InspiredVoltage-IVolt/ACT_Enums</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>ACT; ACT ENUMS; ACT Support Assembly</PackageTags>
-    <AssemblyVersion>2.0.7</AssemblyVersion>
-    <FileVersion>2.0.7</FileVersion>
+    <AssemblyVersion>2.0.8</AssemblyVersion>
+    <FileVersion>2.0.8</FileVersion>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
-    <Version>2.0.7</Version>
+    <Version>2.0.8</Version>
     <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <BaseOutputPath>D:\IVolt_Releases\ACT_Enums</BaseOutputPath>
