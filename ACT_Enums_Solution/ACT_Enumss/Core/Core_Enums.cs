@@ -55,14 +55,16 @@
 
 
     /// <summary>
-    /// Replacement Standards
+    /// Replacement Standards - Looks For Configuration Basic Setting ReplacementWrapper
     /// </summary>
     [Flags()]
     public enum RepacementStandard
     {
         UPPERCASE = 1,
         IGNORECASE = 2,
-        USEDELIMETER = 3,
+        WRAPPER_3HASHTAGSTANDARD = 4,
+        WRAPPER_3BRACKETSTANDARD = 8,
+        WRAPPER_CUSTOM = 16
     }
 
     /// <summary>
