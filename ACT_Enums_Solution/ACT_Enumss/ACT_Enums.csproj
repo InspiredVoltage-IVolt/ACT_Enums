@@ -49,7 +49,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="M:\Shared drives\Assets\__IVOLT_ALL_MEDIA-Assets\IVolt_Product_Images\ACT\ACT_Enums\ACT_Common_Icon.png">
+    <None Update="ACT_Common_Icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

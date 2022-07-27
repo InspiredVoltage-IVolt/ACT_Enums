@@ -22,8 +22,8 @@
   </metadata>
   <files>
     <file src="D:\IVolt_Releases\ACT_Enums\Debug\net6.0\ACT_Enums.dll" target="lib\net6.0\ACT_Enums.dll" />
-    <file src="D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\Icon.ico" target="content\Icon.ico" />
-    <file src="D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\Icon.ico" target="contentFiles\any\net6.0\Icon.ico" />
-    <file src="M:\Shared drives\Assets\__IVOLT_ALL_MEDIA-Assets\IVolt_Product_Images\ACT\ACT_Enums\ACT_Common_Icon.png" target="\ACT_Common_Icon.png" />
+    <file src="D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\Icon.ico" target="content\Icon.ico" />
+    <file src="D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\Icon.ico" target="contentFiles\any\net6.0\Icon.ico" />
+    <file src="D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\ACT_Common_Icon.png" target="\ACT_Common_Icon.png" />
   </files>
 </package>

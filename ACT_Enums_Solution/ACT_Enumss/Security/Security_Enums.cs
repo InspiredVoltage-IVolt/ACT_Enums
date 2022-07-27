@@ -1,19 +1,28 @@
-﻿namespace ACT.Core.Enums
+﻿namespace ACT.Core.Enums.Security
+
 {
+    ///// <summary>
+    ///// Defines Basic Access Levels
+    ///// </summary>
+    //[Flags]
+    //public enum Access_Level
+    //{
+    //    Read,
+    //    Read_Others,
+    //    Write,
+    //    Write_Others,
+    //    Modify,
+    //    Modify_Others,
+    //    Custom,
+    //    Create,
+    //    Delete,
+    //    Delete_Others
+    //}
+
     /// <summary>
-    /// Defines Basic Access Levels
+    /// List of Available Hash Types
     /// </summary>
-    [Flags]
-    public enum AccessLevel
-    {
-        Read = 0,
-        Write = 1,
-        Modify = 2,
-        Custom = Modify | Write, // 0x00000003
-        Create = 4,
-        Delete = Create | Write, // 0x00000005
-    }
-    public enum HashType
+    public enum Hash_Type
     {
         SHA512,
         SHA384,
@@ -22,10 +31,24 @@
         MD5,
     }
 
+    /// <summary>
+    /// Defines Permission Levels Without Database Access.
+    /// </summary>
     [Flags]
-    public enum PermissionLevel
+    public enum Permission_Level
     {
-        Read = 0,
+        Read,
+        Write,
+        Modify,
+        Delete,
+        ReadSelf,
+        ModifySelf,
+        DeleteSelf,
+        ReadOther,
+        ModifyOther,
+        DeleteOther
+        /*OLD CODE
+              Read = 0,
         Write = 1,
         Modify = 2,
         Delete = Modify | Write, // 0x00000003
@@ -35,18 +58,31 @@
         ReadOther = DeleteSelf | Write, // 0x00000007
         ModifyOther = 8,
         DeleteOther = ModifyOther | Write, // 0x00000009
+         */
     }
 
     /// <summary>
-    /// The security Difficulty of the process
-    /// Easy = 6 Characters
-    /// Medium = 8, Hard = 12, Impossible = 16, Galaxy = 32, Universe = 64
-    /// Phrase + Easy = 2 Words, Phrase + Medium = 2, ... 4... 6... 8... 10...
+    /// The security Difficulty of the process    
     /// </summary>
     [Flags]
-    public enum SecurityDifficulty
+    public enum Security_Difficulty
     {
-        Length_Easy = 0,
+        Length_Easy,
+        Length_Medium,
+        Length_Hard,
+        Length_Impossible,
+        Length_GalaxySize,
+        Length_UniverseSize,
+        Characters_AlphaLower,
+        Characters_AlphaUpper,
+        Characters_AlphaLowerUpper,
+        Characters_Special,
+        Phrase_Dictionary,
+        Phrase_Songs,
+        Phrase_Nonsense
+
+        /*OLD CODE
+          Length_Easy = 0,
         Length_Medium = 1,
         Length_Hard = 2,
         Length_Impossible = Length_Hard | Length_Medium, // 0x00000003
@@ -59,11 +95,13 @@
         Phrase_Dictionary = Characters_AlphaLowerUpper | Length_Hard, // 0x0000000A
         Phrase_Songs = Phrase_Dictionary | Length_Medium, // 0x0000000B
         Phrase_Nonsense = Characters_AlphaLowerUpper | Length_GalaxySize, // 0x0000000C
+         */
     }
 
     /// <summary>
     /// Security Provider Generic Result
-    /// </summary>
+    /// </summary>    
+    [Flags]
     public enum Security_Provider_Generic_Result
     {
         EmailAddressRegisteredAlready,
@@ -87,12 +125,12 @@
     /// <summary>
     /// Enum TOKEN_INFORMATION_CLASS
     /// </summary>
-    internal enum TOKEN_INFORMATION_CLASS
+    public enum Token_Information_Class
     {
         /// <summary>
         /// The token user
         /// </summary>
-        TokenUser = 1,
+        TokenUser, 
         /// <summary>
         /// The token groups
         /// </summary>
@@ -215,7 +253,7 @@
     /// <summary>
     /// Enum WELL_KNOWN_SID_TYPE
     /// </summary>
-    internal enum WELL_KNOWN_SID_TYPE
+    public enum WELL_KNOWN_SID_TYPE
     {
         /// <summary>
         /// The win null sid
@@ -541,7 +579,7 @@
     /// levels govern the degree to which a server process can act on behalf
     /// of a client process.
     /// </summary>
-    internal enum SECURITY_IMPERSONATION_LEVEL
+    public enum SECURITY_IMPERSONATION_LEVEL
     {
         /// <summary>
         /// The security anonymous
@@ -566,7 +604,7 @@
     /// token being queried by the GetTokenInformation function or set by
     /// the SetTokenInformation function.
     /// </summary>
-    internal enum TOKEN_ELEVATION_TYPE
+    public enum TOKEN_ELEVATION_TYPE
     {
         /// <summary>
         /// The token elevation type default
