@@ -43,6 +43,8 @@
     [Flags()]
     public enum DOTNET_VERSIONS
     {
+        NET_7_Preview,
+        NET_6,
         FRAMEWORK_4_8_0,
         FRAMEWORK_4_7_2,
         FRAMEWORK_4_7_1,
@@ -55,10 +57,8 @@
         FRAMEWORK_4_5_0,
         FRAMEWORK_4_0_0,
         FRAMEWORK_3_5_0,
-        NETCORE_6_0,
         NETCORE_5_0,
-        NETCORE_3_1,
-        
+        NETCORE_3_1
     }
 
     /// <summary>

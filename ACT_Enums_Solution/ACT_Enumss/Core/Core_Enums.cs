@@ -1,4 +1,6 @@
-﻿namespace ACT.Core.Enums
+﻿
+
+namespace ACT.Core.Enums
 {
 
     /// <summary>
