@@ -1,6 +1,3 @@
-D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Enums.deps.json
-D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Enums.dll
-D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Enums.pdb
 D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\ACT_Enums.GeneratedMSBuildEditorConfig.editorconfig
 D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\ACT_Enums.AssemblyInfoInputs.cache
 D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\ACT_Enums.AssemblyInfo.cs
@@ -11,6 +8,9 @@ D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\
 D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\ACT_Enums.csproj.AssemblyReference.cache
 D:\IVolt_Development\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\refint\ACT_Enums.dll
 D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Common_Icon.png
+D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Enums.deps.json
+D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Enums.dll
+D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Enums.pdb
 D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\ACT_Enums.csproj.AssemblyReference.cache
 D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\ACT_Enums.GeneratedMSBuildEditorConfig.editorconfig
 D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\obj\Release\net6.0\ACT_Enums.AssemblyInfoInputs.cache

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACT.Core.Enums.Data.Geographic
 {
-    public enum Countries_Enum
+    public enum ReportTypes_Enum
     {
         Afghanistan,
         Albania,
