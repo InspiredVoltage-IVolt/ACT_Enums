@@ -11,6 +11,8 @@ namespace ACT.Core.Enums.Deliverables
         Excel,
         Text,
         PDF,
-        Image
+        Image,
+        CustomText,
+        CustomAppSpecific
     }
 }
