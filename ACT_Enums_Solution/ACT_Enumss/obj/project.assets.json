@@ -12,10 +12,10 @@
     "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "2.1.5.8",
+    "version": "2.1.5.9",
     "restore": {
       "projectUniqueName": "D:\\IVolt_Development\\__GITHUB\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\ACT_Enums.csproj",
-      "projectName": "ACT_Enums",
+      "projectName": "ACT.Core.Enums",
       "projectPath": "D:\\IVolt_Development\\__GITHUB\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\ACT_Enums.csproj",
       "packagesPath": "C:\\Users\\MarkAlicz\\.nuget\\packages\\",
       "outputPath": "D:\\IVolt_Development\\__GITHUB\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\obj\\",

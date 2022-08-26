@@ -5,19 +5,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <RootNamespace>ACT.Core.Enums</RootNamespace>
-    <Authors>IVolt LLC, Mark Alicz</Authors>
+    <Authors>Mark Alicz</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>ACT Support Enums - Used Across All ACT Projects.  This can also be used for any project, parts cant be used, etc.  General Purpose Repository for Enums.</Description>
-    <Copyright>2022 IVolt - Mark ALicz</Copyright>
+    <Copyright>1998-2022 Mark Alicz</Copyright>
     <PackageProjectUrl>http://www.act-net.us/ACT/ACT_Enums/</PackageProjectUrl>
     <PackageIcon>ACT_Common_Icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/InspiredVoltage-IVolt/ACT_Enums</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>ACT; ACT ENUMS; ACT Support Assembly</PackageTags>
-    <AssemblyVersion>2.1.5.8</AssemblyVersion>
-    <FileVersion>2.1.5.8</FileVersion>
+    <PackageTags>.NET 6; Common Enums; ACT; ACT Enums; ACT Support Assembly</PackageTags>
+    <AssemblyVersion>2.1.5.9</AssemblyVersion>
+    <FileVersion>2.1.5.9</FileVersion>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
-    <Version>2.1.5.8</Version>
+    <Version>2.1.5.9</Version>
     <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <BaseOutputPath>D:\IVolt_Releases\ACT_Enums</BaseOutputPath>
@@ -26,6 +26,8 @@
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <Title>ACT Common Use - ACT Support Enums</Title>
     <PackageReleaseNotes>Every Release includes new Enums.  Complete Lists will soon be available online.</PackageReleaseNotes>
+    <PackageId>ACT.Core.Enums</PackageId>
+    <Company>IVolt, LLC</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -59,9 +61,5 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="Call &quot;D:\IVolt_Releases\ACT_Enums\PUSH.bat&quot;" />
-  </Target>
 
 </Project>

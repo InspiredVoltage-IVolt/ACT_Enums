@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ACT_Enums</id>
+    <version>2.1.5.9</version>
+    <title>ACT Common Use - ACT Support Enums</title>
+    <authors>IVolt LLC, Mark Alicz</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">AGPL-3.0-only</license>
+    <licenseUrl>https://licenses.nuget.org/AGPL-3.0-only</licenseUrl>
+    <icon>ACT_Common_Icon.png</icon>
+    <projectUrl>http://www.act-net.us/ACT/ACT_Enums/</projectUrl>
+    <description>ACT Support Enums - Used Across All ACT Projects.  This can also be used for any project, parts cant be used, etc.  General Purpose Repository for Enums.</description>
+    <releaseNotes>Every Release includes new Enums.  Complete Lists will soon be available online.</releaseNotes>
+    <copyright>2022 IVolt - Mark ALicz</copyright>
+    <tags>ACT ACT ENUMS ACT Support Assembly</tags>
+    <repository type="git" url="https://github.com/InspiredVoltage-IVolt/ACT_Enums" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/Icon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\IVolt_Releases\ACT_Enums\Release\net6.0\ACT_Enums.dll" target="lib\net6.0\ACT_Enums.dll" />
+    <file src="D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\Icon.ico" target="content\Icon.ico" />
+    <file src="D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\Icon.ico" target="contentFiles\any\net6.0\Icon.ico" />
+    <file src="D:\IVolt_Development\__GITHUB\ACT_Enums\ACT_Enums_Solution\ACT_Enumss\ACT_Common_Icon.png" target="\ACT_Common_Icon.png" />
+  </files>
+</package>
