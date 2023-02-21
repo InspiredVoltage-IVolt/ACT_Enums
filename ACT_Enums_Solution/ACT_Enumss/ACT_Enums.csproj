@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
     <RootNamespace>ACT.Core.Enums</RootNamespace>
@@ -14,10 +14,10 @@
     <RepositoryUrl>https://github.com/InspiredVoltage-IVolt/ACT_Enums</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>.NET 6; Common Enums; ACT; ACT Enums; ACT Support Assembly</PackageTags>
-    <AssemblyVersion>2.1.5.9</AssemblyVersion>
-    <FileVersion>2.1.5.9</FileVersion>
+    <AssemblyVersion>2.3.1.0</AssemblyVersion>
+    <FileVersion>2.3.1.0</FileVersion>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
-    <Version>2.1.5.9</Version>
+    <Version>2.3.1.0</Version>
     <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <BaseOutputPath>D:\IVolt_Releases\ACT_Enums</BaseOutputPath>
@@ -26,7 +26,7 @@
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <Title>ACT Common Use - ACT Support Enums</Title>
     <PackageReleaseNotes>Every Release includes new Enums.  Complete Lists will soon be available online.</PackageReleaseNotes>
-    <PackageId>ACT.Core.Enums</PackageId>
+    <PackageId>ACT_Enums</PackageId>
     <Company>IVolt, LLC</Company>
   </PropertyGroup>
 
@@ -52,6 +52,12 @@
 
   <ItemGroup>
     <Content Include="Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ACT_Attributes">
+      <HintPath>..\..\..\..\..\IVolt_Releases\ACT_Attributes\Debug\net6.0\ACT_Attributes.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
