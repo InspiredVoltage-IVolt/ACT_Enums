@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "c6JS32uel5LySLIX1peze1EOJ3kYB4ou6i5GNbWULv1z71KucyrlgdMeJvc6dIN8A357gSvWFVIQQn1RAt+sMA==",
+  "dgSpecHash": "ME4/yJKQjgEr5ZKqgzbCwkra50gc6MkNINSMC18k+9S4eqpXl0fof+KCTuOHcbg5FrYWqs14FE+DW8VxDe28YQ==",
   "success": true,
   "projectFilePath": "D:\\IVolt_Development\\__GITHUB\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\ACT_Enums.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://localhost:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
