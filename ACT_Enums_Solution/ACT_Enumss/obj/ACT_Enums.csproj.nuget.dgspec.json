@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\IVolt_Development\\__GITHUB\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\ACT_Enums.csproj": {
-      "version": "2.3.2",
+      "version": "2.3.3.1",
       "restore": {
         "projectUniqueName": "D:\\IVolt_Development\\__GITHUB\\ACT_Enums\\ACT_Enums_Solution\\ACT_Enumss\\ACT_Enums.csproj",
         "projectName": "ACT_Enums",
@@ -21,6 +21,7 @@
           "C:\\Users\\MarkAlicz\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

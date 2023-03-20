@@ -12,10 +12,20 @@ namespace ACT.Core.Enums
         All, Basic, Complex, Dependancy, Interface, EncryptionKeys, InstalledApplication
     }
 
-    /// <summary>
-    /// Randomizaion Options
-    /// </summary>
-    public enum Randomization_Options
+   public enum SystemSettingsTypes
+   {
+      ACTInstallationVersion, WorkingDirectoryVersion, ApplicationSpecificVersion, UserSpecificVersion
+   }
+
+   public enum SystemSettingsSectionsConsumptionMethod
+   {
+      Unique, OverwritePreviousBaseWhereKeysMatch, IncludeOnlyMissingKeys
+   }
+
+   /// <summary>
+   /// Randomizaion Options
+   /// </summary>
+   public enum Randomization_Options
     {
         Standard,
         Crypto,
